@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+    </head>
+    <body>
+        <div id="container">
+            <div>
+                <label for ="">Masukan Angka Pertama:</label><br>
+                <input type="number" id="angkaPertama" name="angkaPertama"><br>
+            </div>
+            <div>
+                <label for ="">Masukan Angka Kedua:</label><br>
+                <input type="number" id="angkaKedua" name="angkaKedua"><br>
+            </div>
+        </div>
+        <br>
+        <button type="button" id="tambah" onclick="Choice(this);">+</button>
+        <button type="button" id="kurang" onclick="Choice(this);">-</button>
+        <button type="button" id="kali" onclick="Choice(this);">*</button>
+        <button type="button" id="bagi" onclick="Choice(this);">/</button>
+        <button type="button" id="modulus" onclick="Choice(this);">%</button>
+        
+
+        <h2>Hasilnya adalah <span id="hasil"></span></h2>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
